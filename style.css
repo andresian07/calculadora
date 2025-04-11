@@ -1,0 +1,65 @@
+body {
+  font-family: 'Roboto', sans-serif; /* Cambiar a una fuente más moderna */
+  background-color: #1e1e1e; /* Fondo oscuro para un efecto más futurista */
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: #ffffff; /* Color de texto blanco */
+}
+
+h2 {
+  text-align: center;
+  margin-top: 10px;
+  color: #cccccc; /* Color gris claro para el subtítulo */
+}
+
+.calculadora {
+  width: 320px;
+  margin: 0 auto;
+  background-color: #2a2a2a; /* Color de fondo oscuro para la calculadora */
+  padding: 20px;
+  border-radius: 20px; /* Bordes más redondeados */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada */
+}
+
+#pantalla {
+  width: 90%;
+  padding: 15px;
+  font-size: 24px; /* Aumentar el tamaño de la fuente */
+  margin-bottom: 15px;
+  text-align: right;
+  background-color: #3a3a3a; /* Color de fondo más oscuro para la pantalla */
+  border: none; /* Sin borde */
+  border-radius: 15px; /* Bordes redondeados */
+  color: #00ffcc; /* Color de texto verde claro */
+  box-shadow: inset 0 0 10px rgba(0, 255, 204, 0.5); /* Sombra interna */
+}
+
+input[type="button"] {
+  width: 70px;
+  height: 50px; /* Aumentar la altura de los botones */
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 18px; /* Aumentar el tamaño de la fuente */
+  background-color: #4a90e2; /* Color azul para los botones */
+  border: none; /* Sin borde */
+  border-radius: 15px; /* Bordes redondeados */
+  color: #ffffff; /* Color de texto blanco */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Transiciones suaves */
+}
+
+input[type="button"]:hover {
+  background-color: #007bbf; /* Color más oscuro al pasar el mouse */
+  transform: scale(1.05); /* Efecto de aumento al pasar el mouse */
+}
+
+input[type="button"]:active {
+  transform: scale(0.95); /* Efecto de reducción al hacer clic */
+}
+
+input[type="button"]:last-child {
+  margin-right: 0;
+}
